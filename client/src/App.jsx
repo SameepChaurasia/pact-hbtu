@@ -24,6 +24,8 @@ import Placement from "./pages/Placement";
 import Publications from "./pages/Publications";
 import Post2018 from "./sections/Post2018";
 import Post2023 from "./sections/Post2023";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 export default function App() {
   return (
@@ -56,7 +58,9 @@ export default function App() {
         <Route path="/post2018" element={<Post2018/>}/>
         <Route path="/post2023" element={<Post2023/>}/>
      
-       
+        <Route path="/sign-in" element={<SignIn/>} />
+        <Route path="/sign-up" element={<SignUp/>} />
+
         </Routes>
         
         <Footer/>

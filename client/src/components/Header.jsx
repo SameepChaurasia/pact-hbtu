@@ -149,7 +149,7 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
-                    <Link to='/sign-up'>   
+                    <Link to='/sign-in'>   
                     <button className="bg-blue-700 hover:bg-blue-400 text-white font-bold py-3 px-6 font-serif border-b-8 border-blue-500 hover:border-blue-300 rounded shadow-2xl">
                        SignIn
                     </button>

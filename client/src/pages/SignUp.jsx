@@ -47,7 +47,8 @@ export default function SignUp() {
                         <img src="pact-header-logo-new-removebg.png" className="h-12 w-48"/>
                     </div>
                 </Link>
-                <p className="font-serif font-bold ">You can sign up with your email and password or with google</p>
+                <p className="font-serif font-bold ">You can sign up with your email and password or with google</p><br/>
+                <p>(The passwords are bcrypted and cannot be accessed by anyone including owners also.So it is completely secured)</p>
             </div>
 
             <div className="flex-1">

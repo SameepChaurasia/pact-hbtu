@@ -42,8 +42,8 @@ export default function AboutUs() {
       <div className="text-center pt-5">
         <a className="font-serif font-bold text-3xl underline decoration-emerald-800">THE STORY OF PACT</a>
       </div>
-      <div className="flex flex-row">
-        <div className="basis-4/6 pt-3 pl-5">
+      <div className="">
+        <div className=" pt-3 pl-3 pr-3 flex justify-center items-center">
 
         <a className="font-serif font-normal text-sm">It was in the year 1975-76 that one day a fresh B. Tech. Paint Technology graduate of 1974 batch, Ms. I Kaushal Kumar came from Lucknow to a senior faculty member of Paint Technology Dr. S. Chandra at HBTI Kanpur with a hand written constitution of the proposed Paint Technologists Association of India (PTAI) and enthusiastically requested to form a PTAI on an all India basis similar to the Oil Technologists’ Association India (OTAI). At that time Dr. S. Chandra and all other faculty members of paint technology were actively engaged in already well-established OTAI and were organizing activities related to paint technology under the banner of OTAI.<br/><br/>
 
@@ -62,11 +62,7 @@ export default function AboutUs() {
         <a className="font-serif font-semibold">Thank You Very Much For Reading.</a></a><br/>
 
         </div>
-        <div className="basis-2/6 pt-3">
-
-          
-
-        </div>
+      
       </div>
 
     </div>

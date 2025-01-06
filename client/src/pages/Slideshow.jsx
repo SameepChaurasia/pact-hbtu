@@ -6,7 +6,7 @@ import 'swiper/css/controller';
 
 export default function Slideshow() {
 
-    const images = ["/slide1.jpg","/slide2.jpg","/slide3.jpeg","/slide4.jpg","/slide5.jpeg","/slide6.jpeg"];
+    const images = ["/slideone.png","/slidetwo.png","/slide3.jpeg","/slide4.jpg","/slide5.jpeg","/slide6.jpeg"];
 
   return (
     <section className='bg-gradient-to-r from-emerald-50 to-cyan-50'>

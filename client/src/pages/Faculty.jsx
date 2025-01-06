@@ -52,13 +52,15 @@ export default function Faculty() {
           </div>  
 
       <div>
-<div className="text-center pt-5">
+      <div className="text-center pt-5">
         <a className="font-serif font-bold text-3xl underline decoration-emerald-800">FACULTY - INDTRODUCTION</a>
       </div><br/>
 
-      <div className="flex justify-center items-center">
-        <img src="faculty.jpg" className="h-auto w-auto"/>
-      </div></div>
+      <div className=" grid grid-cols-1 md:grid-cols-1 gap-4 pl-3 pr-3 pt-2 pb-2 justify-center items-center">
+       <div> <img src="faculty1.jpg" className="h-auto w-auto"/></div>
+       <div> <img src="faculty2.jpg" className="h-auto w-auto"/></div>
+      </div>
+      </div>
 
     </div>
   )

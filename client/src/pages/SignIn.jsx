@@ -49,7 +49,7 @@ export default function SignIn() {
                     </div>
                 </Link>
                 <p className="font-serif font-bold ">You can sign in with your email and password or with google</p><br/>
-                <p>(The passwords are bcrypted and cannot be accessed by anyone including owners also.So it is completely secured)</p>
+                <p>(After beign re-directed to home page means you are signed in ...theres an internal error due to which you profile not showing after sign-in but is signed and the error will be fixed soon)</p>
             </div>
 
             <div className="flex-1">

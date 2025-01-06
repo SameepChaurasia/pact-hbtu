@@ -26,6 +26,7 @@ import Post2018 from "./sections/Post2018";
 import Post2023 from "./sections/Post2023";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import Profile from "./pages/Profile";
 
 export default function App() {
   return (
@@ -60,6 +61,8 @@ export default function App() {
      
         <Route path="/sign-in" element={<SignIn/>} />
         <Route path="/sign-up" element={<SignUp/>} />
+        <Route path="/profile" element={<Profile/>} />
+        
 
         </Routes>
         

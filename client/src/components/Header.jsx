@@ -1,8 +1,13 @@
 import  { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaTimes, FaBars } from "react-icons/fa";
+// import { Avatar, Button, Dropdown, Navbar, TextInput } from 'flowbite-react';
+// import { useEffect, useState } from 'react';
+// import { useSelector, useDispatch } from 'react-redux';
 
 export default function Header() {
+
+  // const { currentUser } = useSelector((state) => state.user);
 
   const [navbar, setNavbar] = useState(false);
   const Navbar = [
@@ -87,6 +92,33 @@ export default function Header() {
                   </Link>
                 </li>
               ))}
+               {/* {currentUser ? (
+                <Dropdown
+                  arrowIcon={false}
+                  inline
+                  label={
+                    <Avatar alt='user' img={currentUser.profilePicture} rounded />
+                  }
+                >
+                  <Dropdown.Header>
+                    <span className='block text-sm'>@{currentUser.username}</span>
+                    <span className='block text-sm font-medium truncate'>
+                      {currentUser.email}
+                    </span>
+                  </Dropdown.Header>
+                  <Link to={'/profile'}>
+                    <Dropdown.Item>Profile</Dropdown.Item>
+                  </Link>
+                  <Dropdown.Divider />
+                  <Dropdown.Item onClick={handleSignout}>Sign out</Dropdown.Item>
+                </Dropdown>
+              ) : (
+                <Link to='/sign-in'>
+                  <Button gradientDuoTone='purpleToBlue' outline>
+                    Sign In
+                  </Button>
+                </Link>
+              )} */}
                   <Link to='/sign-in'>   
                     <button className="bg-blue-700 hover:bg-blue-400 text-white font-bold py-3 px-6 font-serif border-b-8 border-blue-500 hover:border-blue-300 rounded shadow-2xl">
                        SignIn
